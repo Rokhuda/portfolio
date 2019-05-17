@@ -1,0 +1,176 @@
+body {
+    color: rgb(24, 16, 16);
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1{
+    font-size: 5.5rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: rgb(16, 15, 17);
+
+   
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: black
+
+}
+
+p{
+    line-height: 2;
+}
+
+ hr{
+   
+    margin: 100px 100px auto auto ;
+} 
+a{
+    color: purple;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+         
+}
+a:hover{
+  color:palevioletred;  
+}
+img{
+
+    position: relative; ;
+
+}
+
+.header1 nav {
+
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px; // ensure visibility on webkit browsers
+    -moz-border-radius: 5px; // ensure visibility on mozilla
+}
+
+.header1 nav ul {
+    list-style: none; /*removes list bullet points */
+    margin: 0 auto;
+    display: block;
+}
+
+.header1 nav ul li {
+    float: left;
+    padding: 0 12px;
+    display: inline;
+    color: white;
+    background-color: white);
+
+}
+
+
+.top-container {
+    background-color:#8F71FF ;
+    position: relative;
+    padding: 100px
+    
+}
+
+.middle-container {
+    background-color:white;
+    margin:  0px 0px 0px 0px ;
+
+}
+
+.bottom-container {
+    background-color:rgb(200, 174, 204);
+    padding: 50px 0 20px; 
+
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 10%;
+    padding: 5px;
+  }
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    
+
+}
+
+.profile p {
+     margin:40px;
+     padding: 0 40px 0 40px;
+
+}
+
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.services {
+    
+}
+.form{
+    align-self: auto;
+    
+}
+
+.copyright {
+    color: wheat;
+    font-size: 0.8rem;
+    padding: 20px 0;
+}
+.r-web {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.analyse {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.web {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.support {
+    width: 25%;
+    float: right;
+    margin-left: px;
+}
+
+.butn {       
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    background: purple;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .butn:hover {
+    background:palevioletred;
+    text-decoration: none;
+  }
+
+
